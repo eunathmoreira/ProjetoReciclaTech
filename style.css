@@ -1,0 +1,14 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: solid green 5px;
+  height: 10vh;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+  align-items: center;
+  height: 10vh;
+}/*# sourceMappingURL=style.css.map */
