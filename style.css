@@ -1,3 +1,4 @@
+@charset "UTF-8";
 header {
   display: flex;
   justify-content: space-around;
@@ -11,4 +12,26 @@ header nav {
   width: 35%;
   align-items: center;
   height: 10vh;
+}
+
+.produtosDisponíveis {
+  display: flex;
+  justify-content: space-around;
+  height: 80vh;
+  align-items: center;
+}
+.produtosDisponíveis article {
+  border: solid #16a34a;
+  width: 18%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.produtosDisponíveis article img {
+  width: 100%;
+}
+.produtosDisponíveis article img bottom {
+  margin-bottom: 2rem;
 }/*# sourceMappingURL=style.css.map */
